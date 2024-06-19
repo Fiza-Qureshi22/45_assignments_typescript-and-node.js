@@ -1,17 +1,24 @@
 "use strict";
-// array of current users
-let current_Users = ["Fiza", "Ayesha", "Habiba", "Abu Bakar", "Umar Faroq"];
-// array of new users
-let new_Users = ["Hani", "Adeeba", "Abu Bakar", "Ayehsa", "Habiba"];
-//lopp through new usersto ceck for username avaialabilty
-new_Users.forEach(new_one_user => {
-    // making a condition for username already exist and save in our condition variable
-    let our_condition = current_Users.some(current_one_user => current_one_user.toLowerCase() === new_one_user.toLowerCase());
-    // print diffrent maasages using if elsse statement
-    if (our_condition) {
-        console.log(`Sorry,${new_one_user},is already taken!`);
+// creating aaray
+Object.defineProperty(exports, "__esModule", { value: true });
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// for loop == y bhi foreach ki tarha hota hy
+// using for loop
+// for( let oneNumber of numbers) y one Number temporary variabale hy y just loop k andar chalyga
+for (let oneNumber of numbers) {
+    let ordinalEnding;
+    if (oneNumber === 1) {
+        ordinalEnding = "st";
+    }
+    else if (oneNumber === 2) {
+        ordinalEnding = "nd";
+    }
+    else if (oneNumber === 3) {
+        ordinalEnding = "rd";
     }
     else {
-        console.log(`This UserName.${new_one_user} is available`);
+        ordinalEnding = "th";
     }
-});
+    console.log(`${oneNumber}${ordinalEnding}`);
+}
+;
