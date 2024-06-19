@@ -1,24 +1,9 @@
-"use strict";
-// creating aaray
-Object.defineProperty(exports, "__esModule", { value: true });
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-// for loop == y bhi foreach ki tarha hota hy
-// using for loop
-// for( let oneNumber of numbers) y one Number temporary variabale hy y just loop k andar chalyga
-for (let oneNumber of numbers) {
-    let ordinalEnding;
-    if (oneNumber === 1) {
-        ordinalEnding = "st";
-    }
-    else if (oneNumber === 2) {
-        ordinalEnding = "nd";
-    }
-    else if (oneNumber === 3) {
-        ordinalEnding = "rd";
-    }
-    else {
-        ordinalEnding = "th";
-    }
-    console.log(`${oneNumber}${ordinalEnding}`);
+// creating array
+let pizza = ["malai boti", "fajita", "chiken tika"];
+// usinng for loop .... for llopp condition true karta rahyga ka tak arra ki values khatam nhi hotin..
+for (let onePizza of pizza) {
+    console.log(`I Like ${onePizza} pizza`);
 }
-;
+// print the message outside of thr for lopp
+console.log("Pizza Is Love ");
+export {};
