@@ -1,5 +1,8 @@
-//3. Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase
-var firstName = "hello world";
-console.log(firstName.toLocaleLowerCase());
-console.log(firstName.toLocaleUpperCase());
-console.log(firstName.charAt(0).toUpperCase() + firstName.slice(1));
+//4 .Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the following, including the quotation marks:
+//Albert Einstein once said, “A person who never made a mistake never tried anything new.”
+
+
+var name1 = ("Allam Iqbal Said");
+
+
+console.log("\"".concat(name1, ", \"Vision without power does bring moral elevation but cannot give a lasting culture\""));
