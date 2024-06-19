@@ -1,18 +1,12 @@
+"use strict";
 // creating array
-let fevourite_fruits = ["apple", "cherry", "strawberry"];
-if (fevourite_fruits.includes("mango")) {
-    console.log("I Really Like Mangos");
-}
-if (fevourite_fruits.includes("cherry")) {
-    console.log("I Really like Cherry");
-}
-if (fevourite_fruits.includes("banana")) {
-    console.log("I Really like Banana");
-}
-if (fevourite_fruits.includes("strawberry")) {
-    console.log("I Really like strawberry");
-}
-if (fevourite_fruits.includes("apple")) {
-    console.log("I Really like Apple");
-}
-export {};
+let userNames = ["fiza", "Ayesha", "Habiba", "Abu Bakar", "Umar Farooq"];
+// creating foreach loop in array
+userNames.forEach(oneUser => {
+    if (oneUser === "Abu Bakar") {
+        console.log(`Hello ${oneUser},would you like to see a status report?`);
+    }
+    else {
+        console.log(`Hello ${oneUser},thank you for logging in again`);
+    }
+});
