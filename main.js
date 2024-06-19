@@ -1,21 +1,18 @@
-let age = 22;
-if (age < 2) {
-    console.log("you are a Baby");
+// creating array
+let fevourite_fruits = ["apple", "cherry", "strawberry"];
+if (fevourite_fruits.includes("mango")) {
+    console.log("I Really Like Mangos");
 }
-else if (age >= 2 && age < 4) {
-    console.log("you are a Toddler");
+if (fevourite_fruits.includes("cherry")) {
+    console.log("I Really like Cherry");
 }
-else if (age >= 4 && age < 13) {
-    console.log("you are a kid.");
+if (fevourite_fruits.includes("banana")) {
+    console.log("I Really like Banana");
 }
-else if (age >= 13 && age < 20) {
-    console.log("you are a Teenagaers");
+if (fevourite_fruits.includes("strawberry")) {
+    console.log("I Really like strawberry");
 }
-else if (age >= 20 && age < 65) {
-    console.log("you are a Adults");
+if (fevourite_fruits.includes("apple")) {
+    console.log("I Really like Apple");
 }
-else if (age >= 65) {
-    console.log("you are Elders");
-}
-;
 export {};
