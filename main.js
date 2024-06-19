@@ -1,5 +1,13 @@
 "use strict";
-// let num:9. Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
+//10 .Adding Comments: Choose two of the programs you’ve written, and add at least one comment to each. If you don’t have anything specific to write because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence describing what the program does.
 Object.defineProperty(exports, "__esModule", { value: true });
-let num = 1382;
-console.log(`My Fevourite Number Is ${num}`);
+let a = 20;
+let b = 30;
+//Addition
+console.log(`${a}+${b}=${a + b}`);
+//Subtraction
+console.log(`${a}-${b}=${a - b}`);
+//Mutiplaction
+console.log(`${a}*${b}=${a * b}`);
+//Division
+console.log(`${b}/${a}=${b / a}`);
