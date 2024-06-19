@@ -1,11 +1,21 @@
-"use strict";
-let alien_color = "yellow";
-if (alien_color === "green") {
-    console.log("(version 3) alien color is green player earned 5 points");
+let age = 22;
+if (age < 2) {
+    console.log("you are a Baby");
 }
-else if (alien_color === "red") {
-    console.log("(version 3) alien color is red  player earned 10 points");
+else if (age >= 2 && age < 4) {
+    console.log("you are a Toddler");
 }
-else if (alien_color === "yellow") {
-    console.log("(version 3) alien color is yellow  player earned 15 points");
+else if (age >= 4 && age < 13) {
+    console.log("you are a kid.");
 }
+else if (age >= 13 && age < 20) {
+    console.log("you are a Teenagaers");
+}
+else if (age >= 20 && age < 65) {
+    console.log("you are a Adults");
+}
+else if (age >= 65) {
+    console.log("you are Elders");
+}
+;
+export {};
