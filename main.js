@@ -1,11 +1,15 @@
-//define a function to print each magician name from an array
-//magicians: string , [] y array islia lagaya k y samajh jayga ka ab mujhy aik array milny wala hy
-function show_magician(magicians) {
-    magicians.forEach(name => console.log(name));
+// map aik new array banayga or usmn saari modifications karlega
+function show_magician(magician) {
+    magician.forEach(name => console.log(name));
 }
-;
-// define an array cntaing magician names
-let magician_Names = ["Fiza", "Ayesha", "Habiba"];
-// cal the function to print each magicioan name
-show_magician(magician_Names);
+// function to make to magiacians great through .map() it will modify the array
+function make_great(magician) {
+    return magician.map(name => `The Great ${name}`);
+}
+// define an array of magician names
+let magician_names = ["Fiza", "Ayesha", "Habiba"];
+// call makegreat function to modify magicians names
+let great_magician = make_great(magician_names);
+// call show magiacians function that show modifiesd list of magician
+show_magician(great_magician);
 export {};
