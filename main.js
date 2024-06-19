@@ -1,3 +1,6 @@
-//Install Node.js, TypeScript and VS Code on your computer.
-// node.js , typescript and vs code  installation done  on my laptop
-console.log("Hello & wellcome! typescript, vs code , and node.js on my laptop");
+//2. Personal Message: Store a person’s name in a variable, and print a message to that person. Your message
+// should be simple, such as, “Hello Eric, would you like to learn some Python today?”
+
+
+var firstName = "Eric";
+console.log("Hello ".concat(firstName, ", \"would you like to learn some Python today?\""));
