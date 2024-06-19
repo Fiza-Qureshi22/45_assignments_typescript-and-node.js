@@ -1,22 +1,11 @@
-// map aik new array banayga or usmn saari modifications karlega
-function show_magician(magician) {
-    magician.forEach(name => console.log(name));
+// define a function with rest parameters that accept items arguments representing the our sanwich
+function make_sanwich(...items) {
+    console.log("Making A Senwitch With The Follwing Items: \n");
+    items.forEach(single_items => console.log(single_items));
+    console.log("\nNow you Enjoy Sandwitch ");
 }
-// function to make to magiacians great through .map() it will modify the array
-function make_great(magician) {
-    return magician.map(name => `The Great ${name}`);
-}
-// define an array of magician names
-let magician_names = ["Fiza", "Ayesha", "Habiba"];
-// making a copy of origional arrray  through slice function 
-let copy_magicians_names = magician_names.slice();
-// modify the copyied array to include "the great with their names"
-let copy_great_magicians = make_great(copy_magicians_names);
-// show both arrays origional and copied .
-// origional 
-console.log("origional array ");
-show_magician(magician_names);
-// copied
-console.log("copied arrayss");
-show_magician(copy_great_magicians);
+// call the function three times wit three different numbers of arguments 
+make_sanwich("chicken", "cheese", "mayo", "ketchup", "egg", "cucumber");
+make_sanwich("Bread", "Butter");
+make_sanwich("chicken", "tomato", "bread", "egg", "lettus", "mayo", "kethup", "cheese", "onion", "souce");
 export {};
