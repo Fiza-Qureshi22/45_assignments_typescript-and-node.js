@@ -1,6 +1,10 @@
 "use strict";
-//6 .Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name. Make sure you use each character combination, "\t" and "\n", at least once. Print the name once, so the whitespace around the name is displayed. Then print the name after striping the white spaces.
+//7. Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
 Object.defineProperty(exports, "__esModule", { value: true });
-console.log("hellomyworld");
-console.log("hello\tMy\tWorld");
-console.log("hello\nMy\nWorld");
+//1. Addition
+let a = 20;
+let b = 5;
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
