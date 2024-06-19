@@ -1,9 +1,9 @@
-// creating array
-let pizza = ["malai boti", "fajita", "chiken tika"];
-// usinng for loop .... for llopp condition true karta rahyga ka tak arra ki values khatam nhi hotin..
-for (let onePizza of pizza) {
-    console.log(`I Like ${onePizza} pizza`);
+// creating a array
+let petAnimals = ["Cat", "Dog", "Rabbit"];
+// using for loop
+for (let onePet of petAnimals) {
+    console.log(`A ${onePet} would make a great pet.`);
 }
-// print the message outside of thr for lopp
-console.log("Pizza Is Love ");
+// print a message outside of for loop
+console.log("Any of these animals would make a great pet!");
 export {};
