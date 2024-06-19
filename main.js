@@ -1,7 +1,12 @@
-// function parameter yaani ham jabbhi functiosn ko call karyngy to wo hamsy 2 parameters mangy ga aik siza jo string mn ho or aik print messag jo string mn hoham parameters function k keywrd mn set karty
-function make_Shirt(size, printMessage) {
-    console.log(`you selected ${size} size shirt with ${printMessage} prints on shirt`);
+// making function
+// hamny y aisy banaya k agar kkoii bhi unct call karta or usmn vo value add nhi karta to usky andar ap bydefoult value add kardena
+function make_shirt(size = "Large", printMessage = "I Love TypeScript") {
+    console.log(`Creating a ${size} shirt with the ${printMessage} prints on shirt`);
 }
-// calling function
-make_Shirt("Medium", "Fizzy Fizzu");
+// calling function ... with bydefoult values
+make_shirt();
+// calling  a function now medium size and defoult mesage
+make_shirt("Medium");
+// calling a function now with smalal size in different print on message
+make_shirt("small", "I Love JavaScript");
 export {};
