@@ -1,8 +1,10 @@
 "use strict";
-//.Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. Write a program that creates a list containing these items
+// They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.
 Object.defineProperty(exports, "__esModule", { value: true });
-let countries = ["Saudia Arab ", "Turkey", "Canada", "USA", "Qatar"];
-// print list of counttries
-countries.forEach(country => {
-    console.log(country);
-});
+;
+let aiCourse = {
+    name: "typescript and javascript ",
+    location: "Governor House Karachi",
+    OnsiteStudents: 50000
+};
+console.log(aiCourse);
