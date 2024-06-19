@@ -1,10 +1,5 @@
 "use strict";
-//7. Number Eight: Write addition, subtraction, multiplication, and division operations that each result in the number 8. Be sure to enclose your operations in print statements to see the results.
+// let num:9. Favorite Number: Store your favorite number in a variable. Then, using that variable, create a message that reveals your favorite number. Print that message.
 Object.defineProperty(exports, "__esModule", { value: true });
-//1. Addition
-let a = 20;
-let b = 5;
-console.log(a + b);
-console.log(a - b);
-console.log(a * b);
-console.log(a / b);
+let num = 1382;
+console.log(`My Fevourite Number Is ${num}`);
